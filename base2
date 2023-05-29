@@ -1,0 +1,66 @@
+for (itr = symbols.begin(); itr != symbols.end(); itr ++)
+{
+    Node *p = new Node(itr -> first; itr -> second);
+    trees.push_back(p);
+}
+
+if (trees.size() == 0)
+{
+    cout << "String is empty" << endl;
+    system("pause");
+    return 0;
+}
+else
+{
+    if (trees.size() = 1)
+    {
+	Node *root = trees.front();
+	root -> Print(root);
+        cout << "-" << a << endl;
+        system("pause");
+    }
+    else
+    {
+	while (trees.size() != 1)
+	{
+	    Node *l = trees.front();
+	    trees.pop_front();
+	    Node *r = trees.front();
+	    trees.pop_front();
+	    Node *r = trees.front()
+	    trees.pop_front();;
+	    Node *pareint - new Node(l,r);
+	    Node *root = trees.front();
+	    root -> Print(root);
+	    vector <bool> code;
+	    map <char, vector <bool>> table;
+	    Build Rable (root, code, table);
+	}
+    	for (itr = symbols.begin(); itr != symbols.end(); itr ++)
+    	{
+	    cout << itr -> first << "-";
+	    for (int j = 0; j < table[itr -> first].size(); j ++)
+	    {
+		cout << table[itr ->first][j] << endl;
+	    }
+	}
+	string out = " ";
+	for (int i = 0; i < row.lenght(); i ++)
+	{
+	    for (int j = 0; j < table[row[i]].size(); j++)
+ 	    {
+		out t = table[row[i]][jj + 'o';
+		cout << table[row[i]][j];
+	    }
+	cout << endl;
+	cout << out.c_str() << endl;
+	map <vector<bool>, char> ftable;
+	for (auto i = table.begin(); i != table.end(); i ++)
+	{
+	    ftable [i -> second] = i -> first;
+	}
+    	cout << Decode (out , (table).c_str() << endl;
+   	system("pause");
+	}
+    }
+}
